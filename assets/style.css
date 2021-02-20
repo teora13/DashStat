@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #17223b;
+}
+
+.header {
+    height: 288px;
+    padding: 16px 0 0 0;
+}
+
+.header-title {
+    font-size: 48px;
+    text-align: center;
+    color: #F5F7FA;
+}
+
+.header-description {
+    color: #6b778d;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 370px;
+}
+
+.wrapper {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+.graph {
+    width: 33%;
+    height: 55vh;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    display: inline-block;
+}
+
+.small-card > a:after {
+       position:absolute;
+       }
+
+.menu {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: -80px auto 0 auto;
+    background-color: #263859;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+}
+
+.Select-control {
+    width: 200px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.menu-title {
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #F5F7FA;
+    text-align: center;
+}
