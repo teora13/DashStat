@@ -1,4 +1,4 @@
-# gameDashStat
+# DashStat
 
 :bar_chart: Web app generates visual statistics from csv file according to selected filters
 
